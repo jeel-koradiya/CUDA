@@ -1,0 +1,1066 @@
+/* PSD-2 */
+
+/* Fonts & Icons */
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,400;1,600&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+
+/* Global Declarations */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Titillium Web", sans-serif;
+  color: #ffff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+p {
+  line-height: 0;
+}
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+}
+.clearfix:before,
+.clearfix:after {
+  width: 100%;
+  display: table;
+  content: "";
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 48.82px;
+  font-weight: 700;
+  color: red;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 29px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 18px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+header {
+  background-color: #87509c;
+}
+
+.site-top {
+  width: 100%;
+  float: left;
+}
+
+header .navigation a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Titillium Web";
+  display: inline-block;
+}
+
+header .navigation ul li {
+  list-style: none;
+  float: left;
+  padding-left: 45px;
+}
+
+header .navigation ul {
+  padding-top: 48px;
+  margin-right: 30px;
+  padding-left: 276px;
+}
+
+header .logo {
+  width: 25%;
+  float: left;
+  padding-top: 57px;
+  padding-left: 47px;
+  padding-bottom: 0px;
+  font-size: 0;
+}
+
+header .navigation {
+  width: 75%;
+  float: left;
+  text-align: right;
+}
+
+/* banner section */
+
+.banner-section {
+  text-align: center;
+  background: #87509c;
+  color: #f7f3ea;
+  font-size: 42px;
+  padding-top: 135px;
+  padding-bottom: 145px;
+  padding-right: 24px;
+}
+.banner-section h1 {
+  color: #f7f3ea;
+}
+.banner-section .button {
+  padding-top: 32px;
+}
+
+.banner-section p {
+  width: 908px;
+  font-size: 42px;
+  line-height: 48.82px;
+  font-weight: 700;
+  color: #f7f3ea;
+  margin: 0px auto;
+}
+
+.button a {
+  letter-spacing: 0.2px;
+  margin-right: -26px;
+  margin-top: 22px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 33px;
+  padding: 17px 83px;
+  background-color: #eb7d4b;
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  border-radius: 4px;
+  border-bottom: 4px solid #c86a40;
+}
+
+.banner-section p.shi {
+  padding-left: 14px;
+  padding-bottom: 0px;
+}
+
+.banner-section p.sand {
+  padding-left: 27px;
+  letter-spacing: 0.1px;
+}
+
+/* section 1 */
+
+.section1 {
+  text-align: center;
+  background-color: #17c2a4;
+  padding-top: 90.95px;
+  padding-bottom: 91px;
+  padding-left: 4px;
+}
+
+.section1 .service {
+  line-height: 40px;
+  font-size: 40px;
+  letter-spacing: 4px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Titillium Web";
+  text-align: center;
+  margin-bottom: 37px;
+}
+
+.section1 .line {
+  background-color: #14a58c;
+  width: 87px;
+  height: 4px;
+  margin: auto;
+}
+
+.section1 .swe {
+  margin: auto;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  width: 591px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Titillium Web";
+  text-align: center;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-top: 18px;
+}
+
+.section1 .swe1 {
+  padding-bottom: 0px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  width: 591px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Titillium Web";
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 262px;
+  margin-bottom: 76px;
+}
+
+.section1 .four-col {
+  width: 100%;
+  float: left;
+  margin: auto;
+}
+
+.section1 .icon {
+  width: 25%;
+  float: left;
+}
+
+.section1 .imgicon {
+  padding-bottom: 18px;
+  margin-left: 5px;
+}
+
+.section1 .icon h3 {
+  padding-right: 11px;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Titillium Web";
+  padding-top: 0px;
+}
+
+.section1 .icon h6 {
+  width: 199px;
+  margin: auto 0 auto 32px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Titillium Web";
+  text-align: center;
+}
+
+/* section2 */
+
+.section2 {
+  background-color: #e7f1f8;
+  padding-top: 90.95px;
+  padding-bottom: 170px;
+  padding-left: 4px;
+}
+
+.section2 .service {
+  line-height: 40px;
+  font-size: 40px;
+  letter-spacing: 4px;
+  color: #3c4761;
+  font-weight: 700;
+  font-family: "Titillium Web";
+  text-align: center;
+}
+
+.section2 .line {
+  background-color: #14a58c;
+  width: 87px;
+  height: 4px;
+  margin: auto;
+}
+
+.section2 .swe {
+  padding-bottom: 78px;
+  padding-top: 21px;
+  margin: auto;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  width: 644px;
+  color: #3c4761;
+  font-weight: 400;
+  font-family: "Titillium Web";
+  text-align: center;
+}
+
+.section2 .circle .c1 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: #878787;
+  margin-bottom: 12px;
+  margin-left: 33px;
+}
+
+.section2 .circle .name {
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #3c4761;
+  font-weight: 700;
+  font-family: "Titillium Web";
+  text-align: center;
+}
+
+.section2 .circle .ceo {
+  padding-bottom: 17px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #30bae7;
+  font-weight: 400;
+  font-family: "Titillium Web";
+  text-align: center;
+}
+
+.section2 .circle .content {
+  margin: auto;
+  width: 197px;
+  height: 135px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #3c4761;
+  font-weight: 300;
+  font-family: "Titillium Web";
+  text-align: center;
+}
+
+.section2 .block {
+  float: left;
+  width: 100%;
+}
+
+.section2 .circle {
+  width: 25%;
+  float: left;
+}
+
+.section2 img {
+  padding-top: 27px;
+}
+
+.section2 .simg {
+  margin-left: 51px;
+}
+
+/* section - 4 */
+
+.section4 .line {
+  width: 87px;
+  height: 4px;
+  background-color: #dfe8ed;
+  margin: 0 auto;
+}
+
+.section4 {
+  text-align: center;
+  background: #ffff;
+  color: #3c4761;
+  font-size: 42px;
+  padding-top: 116px;
+  padding-bottom: 108px;
+}
+
+.section4 .we {
+  letter-spacing: 3px;
+  padding-bottom: 21px;
+  font-size: 42px;
+  line-height: 27.82px;
+  font-weight: 700;
+  color: #3c4761;
+  margin: 0px;
+  margin-left: 5px;
+}
+
+.section4 .sp {
+  width: 569px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 26.42px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.section4 .sp11 {
+  font-size: 18px;
+  line-height: 26.42px;
+  font-weight: 400;
+}
+
+.section4 .block {
+  margin-top: 80px;
+  width: 100%;
+  float: left;
+  margin-left: -1px;
+}
+
+.section4 .image1 {
+  float: left;
+  width: 25%;
+}
+
+/* Section - 5  */
+
+.section5 .line {
+  width: 87px;
+  height: 4px;
+  background-color: #273a71;
+  margin: 0 auto;
+}
+
+.section5 {
+  text-align: center;
+  background: #3c5499;
+  color: #ffff;
+  font-size: 42px;
+  padding-top: 109px;
+  padding-bottom: 113px;
+}
+
+.section5 .we {
+  letter-spacing: 3px;
+  padding-bottom: 18px;
+  font-size: 42px;
+  line-height: 35.82px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0px;
+  margin-left: 33px;
+}
+
+.section5 .sp {
+  padding-bottom: 40px;
+  font-size: 18px;
+  line-height: 26.42px;
+  font-weight: 400;
+}
+
+.section5 .sp11 {
+  font-size: 18px;
+  line-height: 26.42px;
+  font-weight: 400;
+}
+
+.section5 form input[type="email"] {
+  background-color: #273a71;
+  color: white;
+  width: 414px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
+  padding-left: 28px;
+  margin: 0 0;
+}
+
+.abc {
+  margin: 0 3px 0 0;
+}
+
+.xyz {
+  margin: 0 3px 0 0;
+}
+
+.section5 ::placeholder {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Titillium Web";
+}
+
+.section5 form input[type="text"] {
+  background-color: #273a71;
+  margin-top: 18px;
+  width: 414px;
+  color: #ffff;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
+  padding-left: 27px;
+}
+
+::placeholder {
+  color: red;
+  opacity: 1;
+}
+
+.section5 form textarea {
+  margin-top: 24px;
+  border: none;
+  padding-left: 28px;
+  padding-top: 19px;
+  color: white;
+  background-color: #273a71;
+  width: 852px;
+  height: 200px;
+  border-radius: 4px;
+  margin-left: 13px;
+}
+
+.section5 form {
+  align-items: center;
+}
+
+.section5 .button a {
+  border: none;
+  margin-top: 45px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 11px;
+  padding: 26px 81px 26px 81px;
+  background-color: #30bae7;
+  color: #fff;
+  display: inline-block;
+  border-radius: 4px;
+  border-bottom: 4px solid #299ec5;
+}
+
+/* footer */
+
+footer .foot {
+  padding-top: 4px;
+  padding-left: 96px;
+  float: left;
+  width: 100%;
+}
+
+footer .foot1 {
+  float: left;
+  width: 14.28%;
+}
+
+footer {
+  padding-top: 36px;
+  padding-bottom: 41px;
+  background-color: #344b8e;
+}
+
+footer a {
+  margin-left: -11px;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #30bae7;
+}
+
+/* Responsive */
+/* max-width: 1110px; */
+
+@media (max-width: 1180px) {
+  .container {
+    max-width: 992px;
+  }
+
+  header .navigation ul li {
+    padding-left: 40px;
+  }
+  .section1 .icon {
+    padding-top: 45px;
+  }
+
+  .section1 .icon h3 {
+    padding-right: 0px;
+  }
+
+  .section1 .icon h6 {
+    margin: 0 auto;
+  }
+
+  .abc {
+    margin: 0 12px 0 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 900px;
+  }
+
+  .section1 .icon h6 {
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  header .navigation ul {
+    padding-left: 200px;
+  }
+
+  .banner-section p {
+    width: 800px;
+  }
+
+  .section2 .circle .c1 {
+    margin: 0 auto 33px 14px;
+  }
+
+  .abc {
+    margin: 0 12px 0 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .abc {
+    margin: 0 0px 0 0px;
+  }
+
+  header .navigation ul li {
+    padding-left: 35px;
+  }
+
+  header .navigation ul {
+    padding-left: 110px;
+  }
+
+  header .logo {
+    padding-left: 0px;
+  }
+
+  header .navigation ul {
+    margin-right: 0px;
+  }
+
+  .banner-section {
+    padding-top: 100px;
+    padding-bottom: 85px;
+  }
+
+  .banner-section p {
+    font-size: 34px;
+    width: 658px;
+  }
+
+  .button a {
+    font-size: 15px;
+  }
+
+  .section2 .service {
+    font-size: 32px;
+  }
+
+  .section4 .we,
+  .section5 .we {
+    font-size: 32px;
+  }
+
+  .section5 .sp {
+    font-size: 16px;
+  }
+
+  .button a {
+    padding: 10px 50px;
+  }
+
+  .section1 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  .pt0px {
+    padding-top: 0px;
+  }
+
+  .section1 .service {
+    font-size: 32px;
+  }
+  .section1 .icon {
+    width: 50%;
+  }
+
+  .section2 {
+    padding: 50px 0px;
+  }
+
+  .section2 .circle {
+    width: 50%;
+    padding: 50px;
+  }
+
+  .section2 .swe {
+    padding-bottom: 0px;
+  }
+
+  .section4 {
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+
+  .section4 .block {
+    margin-top: 10px;
+  }
+
+  .section4 .image1 {
+    width: 50%;
+    padding: 40px;
+  }
+
+  .section5 {
+    margin-right: 0px;
+  }
+
+  .section5 form input[type="text"] {
+    width: 100%;
+  }
+
+  .section5 form input[type="email"] {
+    width: 100%;
+    padding-left: 28px;
+  }
+
+  .section5 form textarea {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  footer .foot {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .section5 .button a {
+    margin-top: 0px;
+    font-size: 16px;
+    padding: 15px 40px 15px 40px;
+  }
+
+  .section5 {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+
+  footer a {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1180px) {
+  .section1 .icon {
+    padding-top: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 600px;
+  }
+
+  header .navigation ul li {
+    padding-left: 30px;
+  }
+
+  header .navigation ul {
+    padding-left: 60px;
+  }
+
+  .banner-section p {
+    width: 543px;
+  }
+}
+
+@media (min-width: 767px) {
+  .menuTrigger {
+    display: none;
+  }
+
+  input[type="checkbox"] {
+    display: none;
+  }
+}
+
+@media (max-width: 766px) {
+  body {
+    font-size: 14px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+  .container {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .banner-section,
+  .section1,
+  .section5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .banner-section p {
+    font-size: 32px;
+  }
+
+  .section1 .service,
+  .section2 .service,
+  .section4 .we,
+  .section5 .we {
+    font-size: 30px;
+  }
+
+  header .logo {
+    max-width: 90px;
+    padding-top: 20px;
+  }
+
+  header .navigation ul {
+    padding-left: 42px;
+  }
+
+  header .navigation ul {
+    margin: 0px 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .navigation {
+    width: 100%;
+    padding-top: 0;
+    display: none;
+  }
+
+  .navigation ul li {
+    display: block;
+  }
+  .navigation ul li a {
+    float: none;
+  }
+
+  .site-nav ul li a {
+    padding: 12px 7px;
+  }
+
+  label.menuTrigger {
+    float: right;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff !important;
+    display: block;
+  }
+  header .navigation {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #000;
+    top: 0;
+    height: 100%;
+    padding: 15px 0;
+    transform: translate(-100%, 0);
+    display: block;
+    transition: all ease 0.4s;
+  }
+
+  [name="menu_trigger"]:checked ~ .container .navigation {
+    transform: translate(0, 0);
+  }
+
+  input[name="menu_trigger"] {
+    display: none !important;
+  }
+
+  header .navigation ul li {
+    padding-bottom: 14px;
+    padding-left: 30px;
+    float: left;
+    padding-right: 30px;
+  }
+
+  .section2 .circle .c1 {
+    margin: 0 auto 33px 0px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .section2 .circle .name {
+    font-size: 22px;
+  }
+
+  .button a {
+    padding: 8px 40px;
+  }
+
+  .section1 .swe,
+  .section2 .swe,
+  .section4 .sp,
+  .section5 .sp {
+    font-size: 14px;
+  }
+
+  .section1 .icon h3 {
+    font-size: 22px;
+  }
+
+  .section1 .swe {
+    width: 100%;
+    max-width: 591px;
+  }
+
+  .section2 .swe {
+    width: 100%;
+    max-width: 644px;
+    padding-bottom: 21px;
+  }
+
+  .banner-section p {
+    max-width: 543px;
+    width: 100%;
+  }
+
+  .section4 .sp {
+    max-width: 569px;
+    width: 100%;
+  }
+
+  .icon.pt0px.hello {
+    clear: left;
+  }
+
+  .circle.hello1 {
+    clear: left;
+  }
+
+  .section1 .icon h6 {
+    font-size: 15px;
+  }
+
+  .section2 .circle .content {
+    font-size: 14px;
+  }
+
+  .section2 .circle {
+    padding: 0 0 50px 0px;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+  }
+  footer a {
+    font-size: 15px;
+  }
+
+  .four-col .icon img {
+    width: 75px;
+    height: 100px;
+    object-fit: contain;
+    object-position: bottom;
+  }
+}
+
+@media (max-width: 479px) {
+  .section1 .icon,
+  .section2 .circle,
+  .section4 .image1 {
+    width: 100%;
+  }
+
+  .banner-section p {
+    line-height: 38px;
+    font-size: 26px;
+  }
+
+  .section1 .service,
+  .section2 .service,
+  .section4 .we,
+  .section5 .we {
+    font-size: 25px;
+  }
+
+  .section1 .icon h6 {
+    font-size: 13px;
+  }
+
+  .section2 .circle .content {
+    font-size: 13px;
+  }
+
+  .section2 .circle .c1 {
+    margin: 0 auto -1px 0px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .circle.hello1 {
+    padding-bottom: 70px;
+  }
+
+  .image1 img {
+    width: 38%;
+  }
+
+  p.sp.sp1 {
+    padding-bottom: 0px;
+  }
+
+  form input[type="text"],
+  form input[type="email"] {
+    font-size: 13px;
+  }
+
+  footer .foot1 {
+    display: inline-block;
+    float: none;
+    width: 21.28%;
+  }
+
+  .button a {
+    padding: 5px 25px;
+    font-size: 14px;
+  }
+
+  .section5 .button a {
+    font-size: 14px;
+    padding: 13px 25px 13px 25px;
+  }
+}
+
+/* Typography 
+h1 - 78/88 , Lato, 900, #506a85
+h2 - 44/54, Lato, 700, #506a85
+h3 - 26/34, lato, 700, #506a85
+h4 - 20/26, lato, 700, #506a85
+h5 - 18/24, lato, 700, #506a85
+h6 - 16/22, Lato, 700, #506a85
+*/
+
+/* Font Families
+---------------
+Hairline/Thin - 100
+Extra light - 200
+Light - 300
+Regular - 400
+Medium - 500
+Semibold - 600
+Bold - 700
+Extra Bold - 800
+Black - 900
+*/
